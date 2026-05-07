@@ -13,10 +13,13 @@ return (
     <Routes>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />}/>
-        <Route path="programme" element={<Programe />} />
-        <Route path="programme/:artistId" element={<ArtistDetail />} />
+        <Route path="programe" element={<Programe />} />
+        <Route path="programe/:artistId" element={<ArtistDetail />} />
         <Route path="planning" element={<MonPlanning />} />
         <Route path="passeport" element={<PasseportMusical />} />
+        <Route path="stages" element={<stages />} />
+        <Route path="link" element={<link />} />
+        <Route path="useState" element={<useState />} />
         </Route>
     </Routes>
     </BrowserRouter>
