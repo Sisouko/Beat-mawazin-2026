@@ -5,7 +5,6 @@ import Programme from './pages/Programme'
 import ArtistDetail from './pages/ArtistDetail'
 import MonPlanning from './pages/MonPlanning'
 import PasseportMusical from './pages/PasseportMusical'
-
 function App() {
 
 return (
