@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
-import Navbar from './Navbar'
+import Navbar from '../Navbar'
 
 function Layout() {
 const location = useLocation()

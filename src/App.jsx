@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
-import Programme from './pages/Programme'
+import Programe from './pages/Programe'
 import ArtistDetail from './pages/ArtistDetail'
 import MonPlanning from './pages/MonPlanning'
 import PasseportMusical from './pages/PasseportMusical'
@@ -13,7 +13,7 @@ return (
     <Routes>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />}/>
-        <Route path="programme" element={<Programme />} />
+        <Route path="programme" element={<Programe />} />
         <Route path="programme/:artistId" element={<ArtistDetail />} />
         <Route path="planning" element={<MonPlanning />} />
         <Route path="passeport" element={<PasseportMusical />} />
