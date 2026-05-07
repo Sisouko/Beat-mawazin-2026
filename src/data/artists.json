@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1",
+    "name": "Oum",
+    "day": "2026-06-19",
+    "stage": "OLM Souissi",
+    "genre": "Jazz",
+    "time": "21:00",
+    "bio": "Oum est une artiste marocaine dont la voix envoûtante mélange jazz, soul et musiques du monde. Elle est l'une des voix les plus distinctives de sa génération."
+  },
+  {
+    "id": "2",
+    "name": "Stromae",
+    "day": "2026-06-19",
+    "stage": "Bouregreg",
+    "genre": "Pop",
+    "time": "22:30",
+    "bio": "Stromae est un artiste belge qui mélange électro, pop et influences africaines. Ses textes poétiques et ses performances scéniques sont légendaires."
+  },
+  {
+    "id": "3",
+    "name": "Gnawa Diffusion",
+    "day": "2026-06-20",
+    "stage": "Nahda",
+    "genre": "Gnawa",
+    "time": "20:00",
+    "bio": "Gnawa Diffusion fusionne la musique gnawa traditionnelle avec le reggae et le rock. Un groupe pionnier de la world music marocaine."
+  },
+  {
+    "id": "4",
+    "name": "Burna Boy",
+    "day": "2026-06-20",
+    "stage": "OLM Souissi",
+    "genre": "Afrobeats",
+    "time": "22:00",
+    "bio": "Burna Boy est une superstar nigériane de l'afrobeats. Son énergie sur scène est explosive et ses hits font danser le monde entier."
+  },
+  {
+    "id": "5",
+    "name": "Hindi Zahra",
+    "day": "2026-06-21",
+    "stage": "Théâtre Mohammed V",
+    "genre": "Jazz",
+    "time": "20:30",
+    "bio": "Hindi Zahra est une artiste maroco-française qui chante en berbère, français et anglais. Sa musique mélange folk, jazz et blues avec une délicatesse rare."
+  },
+  {
+    "id": "6",
+    "name": "Maâlem Mahmoud Guinia",
+    "day": "2026-06-21",
+    "stage": "Chellah",
+    "genre": "Gnawa",
+    "time": "21:30",
+    "bio": "Maâlem Mahmoud Guinia est une légende vivante de la musique gnawa. Ses lila nocturnes au Chellah sont des expériences spirituelles inoubliables."
+  },
+  {
+    "id": "7",
+    "name": "Dua Lipa",
+    "day": "2026-06-22",
+    "stage": "OLM Souissi",
+    "genre": "Pop",
+    "time": "22:00",
+    "bio": "Dua Lipa est une chanteuse britannique au sommet de la pop mondiale. Ses tubes dansants et sa présence scénique magnétique promettent un show mémorable."
+  },
+  {
+    "id": "8",
+    "name": "Baloji",
+    "day": "2026-06-22",
+    "stage": "Bouregreg",
+    "genre": "Afrobeats",
+    "time": "20:00",
+    "bio": "Baloji est un artiste belgo-congolais qui mêle hip-hop, rumba congolaise et arts visuels. Un performer total dont les concerts sont de véritables installations artistiques."
+  },
+  {
+    "id": "9",
+    "name": "Nass El Ghiwane",
+    "day": "2026-06-23",
+    "stage": "Nahda",
+    "genre": "Chaabi",
+    "time": "21:00",
+    "bio": "Nass El Ghiwane est le groupe le plus mythique de la musique marocaine. Leurs chansons engagées résonnent depuis les années 70 dans tous les cœurs marocains."
+  },
+  {
+    "id": "10",
+    "name": "Rosalia",
+    "day": "2026-06-23",
+    "stage": "OLM Souissi",
+    "genre": "Pop",
+    "time": "22:30",
+    "bio": "Rosalia est une artiste espagnole qui réinvente le flamenco avec des productions ultra-modernes. Son show visuel et sonore est une expérience unique."
+  },
+  {
+    "id": "11",
+    "name": "Farid El Atrache Tribute",
+    "day": "2026-06-23",
+    "stage": "Théâtre Mohammed V",
+    "genre": "Oriental",
+    "time": "20:00",
+    "bio": "Un hommage exceptionnel au roi du tarab Farid El Atrache, interprété par les meilleurs musiciens arabes du moment dans le cadre majestueux du Théâtre Mohammed V."
+  },
+  {
+    "id": "12",
+    "name": "Ibeyi",
+    "day": "2026-06-24",
+    "stage": "Bouregreg",
+    "genre": "Jazz",
+    "time": "20:30",
+    "bio": "Ibeyi est un duo franco-cubain qui fusionne musique yoruba, électro et R&B. Leurs harmonies vocales sont d'une beauté renversante."
+  },
+  {
+    "id": "13",
+    "name": "Khaled",
+    "day": "2026-06-24",
+    "stage": "OLM Souissi",
+    "genre": "Chaabi",
+    "time": "22:00",
+    "bio": "Khaled est le roi incontesté du raï. L'artiste algérien qui a conquis le monde entier revient à Mawazin avec ses tubes indémodables."
+  },
+  {
+    "id": "14",
+    "name": "Soolking",
+    "day": "2026-06-24",
+    "stage": "Nahda",
+    "genre": "Reggae",
+    "time": "21:00",
+    "bio": "Soolking est un rappeur algérien au flow unique qui mêle trap, dancehall et influences orientales. Un artiste de la nouvelle génération à ne pas manquer."
+  },
+  {
+    "id": "15",
+    "name": "Aziz Maraka",
+    "day": "2026-06-25",
+    "stage": "Chellah",
+    "genre": "Jazz",
+    "time": "19:30",
+    "bio": "Aziz Maraka est un jazzman marocain reconnu internationalement. Sa guitare chaleureuse et ses compositions originales font de lui une figure incontournable du jazz africain."
+  },
+  {
+    "id": "16",
+    "name": "Aya Nakamura",
+    "day": "2026-06-25",
+    "stage": "OLM Souissi",
+    "genre": "Pop",
+    "time": "22:30",
+    "bio": "Aya Nakamura est l'artiste francophone la plus écoutée au monde. Ses tubes afro-pop colorés et sa voix reconnaissable entre toutes promettent un concert de feu."
+  },
+  {
+    "id": "17",
+    "name": "Tiken Jah Fakoly",
+    "day": "2026-06-25",
+    "stage": "Bouregreg",
+    "genre": "Reggae",
+    "time": "21:00",
+    "bio": "Tiken Jah Fakoly est la voix du reggae africain engagé. L'artiste ivoirien chante la liberté, la justice et l'unité africaine depuis trente ans."
+  },
+  {
+    "id": "18",
+    "name": "Meriem Benallal",
+    "day": "2026-06-25",
+    "stage": "Plage de Salé",
+    "genre": "Chaabi",
+    "time": "20:00",
+    "bio": "Meriem Benallal est une chanteuse chaabi marocaine dont la voix puissante et émouvante touche directement l'âme. Un concert sur la plage pour une soirée magique."
+  },
+  {
+    "id": "19",
+    "name": "Ibrahim Maalouf",
+    "day": "2026-06-26",
+    "stage": "Théâtre Mohammed V",
+    "genre": "Jazz",
+    "time": "20:00",
+    "bio": "Ibrahim Maalouf est un trompettiste libano-français virtuose qui mélange jazz, musique orientale et électronique. Ses concerts sont des voyages entre deux cultures."
+  },
+  {
+    "id": "20",
+    "name": "Kendrick Lamar",
+    "day": "2026-06-26",
+    "stage": "OLM Souissi",
+    "genre": "Hip-Hop",
+    "time": "22:30",
+    "bio": "Kendrick Lamar est le rappeur le plus primé de sa génération, lauréat du Prix Pulitzer. Son show immersif et ses paroles profondes en font une expérience artistique totale."
+  },
+  {
+    "id": "21",
+    "name": "Amazigh Kateb",
+    "day": "2026-06-26",
+    "stage": "Nahda",
+    "genre": "Reggae",
+    "time": "21:00",
+    "bio": "Amazigh Kateb, fils du grand écrivain Kateb Yacine, chante un reggae algérien engagé et poétique. Sa musique est un pont entre les générations et les cultures."
+  },
+  {
+    "id": "22",
+    "name": "Nomad'Slam",
+    "day": "2026-06-26",
+    "stage": "Scène de Quartier",
+    "genre": "Hip-Hop",
+    "time": "18:00",
+    "bio": "Nomad'Slam est un collectif de slam et poésie spoken word marocain. Leur performance mélange mots, musique et engagement citoyen dans une énergie brute et authentique."
+  },
+  {
+    "id": "23",
+    "name": "Fairuz Tribute",
+    "day": "2026-06-27",
+    "stage": "Théâtre Mohammed V",
+    "genre": "Oriental",
+    "time": "20:00",
+    "bio": "Un hommage grandiose à la légende libanaise Fairuz, avec orchestre symphonique et chœurs. Une soirée de clôture qui célèbre la musique arabe dans toute sa splendeur."
+  },
+  {
+    "id": "24",
+    "name": "The Weeknd",
+    "day": "2026-06-27",
+    "stage": "OLM Souissi",
+    "genre": "Pop",
+    "time": "22:30",
+    "bio": "The Weeknd est l'une des plus grandes superstars mondiales. Son show de clôture promet d'être le moment le plus fort de l'édition 2026 avec une scénographie grandiose."
+  },
+  {
+    "id": "25",
+    "name": "Hoba Hoba Spirit",
+    "day": "2026-06-27",
+    "stage": "Bouregreg",
+    "genre": "Reggae",
+    "time": "20:00",
+    "bio": "Hoba Hoba Spirit est le groupe de rock-chaabi marocain le plus populaire. Leurs textes humoristiques et engagés sur la société marocaine sont adorés de tout le public."
+  },
+  {
+    "id": "26",
+    "name": "Raiss El Morsli",
+    "day": "2026-06-27",
+    "stage": "Chellah",
+    "genre": "Chaabi",
+    "time": "19:00",
+    "bio": "Raiss El Morsli est un maître de la musique amazighe du Souss. Dans le cadre historique du Chellah, son concert sera une plongée dans les racines de la musique marocaine."
+  },
+  {
+    "id": "27",
+    "name": "Mehdi Nassouli",
+    "day": "2026-06-20",
+    "stage": "Chellah",
+    "genre": "Gnawa",
+    "time": "19:30",
+    "bio": "Mehdi Nassouli est un jeune maâlem gnawa qui réinvente la musique de ses ancêtres avec des collaborations jazz et électro. Une nouvelle génération gnawa à découvrir absolument."
+  },
+  {
+    "id": "28",
+    "name": "Saâd Lamjarred",
+    "day": "2026-06-21",
+    "stage": "OLM Souissi",
+    "genre": "Pop",
+    "time": "22:00",
+    "bio": "Saâd Lamjarred est l'artiste arabe le plus suivi sur YouTube. Ses tubes pop-oriental font danser des millions de fans et son retour à Mawazin sera un événement."
+  },
+  {
+    "id": "29",
+    "name": "Bombino",
+    "day": "2026-06-22",
+    "stage": "Chellah",
+    "genre": "Jazz",
+    "time": "19:00",
+    "bio": "Bombino est un guitariste touareg du Niger surnommé le Hendrix du Sahara. Sa guitare électrique hypnotique dans les ruines du Chellah promet un moment hors du temps."
+  },
+  {
+    "id": "30",
+    "name": "DJ Snake",
+    "day": "2026-06-22",
+    "stage": "Plage de Salé",
+    "genre": "Électro",
+    "time": "23:00",
+    "bio": "DJ Snake est le producteur franco-algérien qui a créé les plus grands tubes électro de la décennie. Son set sur la plage de Salé sera une fête géante sous les étoiles."
+  }
+]
