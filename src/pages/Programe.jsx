@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
-import daySelector from '../components/DaySelector'
+import DaySelector from '../components/DaySelector'
 import GenreFilter from '../components/GenreFilter'
 import ArtistCard from '../components/ArtistCard'
 import allArtists from '../data/artists.json'
-import DaySelector from '../components/DaySelector'
+
 function Programe () {
 const [artists, setArtists] = useState([])
   const [selectedDay, setSelectedDay] = useState('2026-06-19')
