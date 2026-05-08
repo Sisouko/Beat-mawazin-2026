@@ -1,7 +1,7 @@
 import {Link, useLocation } from 'react-router-dom'
 
 function Navbar(){
-  const location = useLocation()
+const location = useLocation()
 
   const navLinks = [
 

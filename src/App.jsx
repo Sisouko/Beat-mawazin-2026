@@ -5,11 +5,13 @@ import Programe from './pages/Programe'
 import ArtistDetail from './pages/ArtistDetail'
 import MonPlanning from './pages/MonPlanning'
 import PasseportMusical from './pages/PasseportMusical'
+import Navbar from './components/Navbar'
 function App() {
 
 return (
 
     <BrowserRouter>
+    <Navbar/>
     <Routes>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />}/>
