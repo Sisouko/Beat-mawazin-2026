@@ -50,7 +50,7 @@ if (favorites.length === 0) {
         {favorites.length} concert{favorites.length !== 1 ? 's' : ''} sauvegardé{favorites.length !== 1 ? 's' : ''}
       </p>
 
-      {/* Group by day */}
+      
       {sortedDays.map(day => (
         <section key={day} className="planning__day-group">
           <h2 className="planning__day-title">
