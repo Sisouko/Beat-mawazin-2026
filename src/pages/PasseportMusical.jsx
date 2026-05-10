@@ -65,4 +65,4 @@ function PasseportMusical() {
   )
 }
 
-export default function PasseportMusical
+export default PasseportMusical
