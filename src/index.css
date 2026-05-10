@@ -1,0 +1,190 @@
+:root {
+  --color-bg: #0D1B2A;
+  --color-surface: #162032;
+  --color-card: #1E2D40;
+  --color-gold: #F4A923;
+  --color-mint: #3DFFC0;
+  --color-text: #F0EDE6;
+  --color-muted: #8899AA;
+  --color-border: #2A3F55;
+  --radius: 12px;
+  --radius-lg: 20px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+.layout { display: flex; flex-direction: column; min-height: 100vh; }
+.main-content { flex: 1; padding-bottom: 80px; } /* space for navbar */
+
+.navbar {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  display: flex; justify-content: space-around;
+  padding: 8px 0; z-index: 100;
+}
+.nav-link {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 4px; text-decoration: none; color: var(--color-muted);
+  font-size: 11px; padding: 4px 12px; border-radius: 8px;
+  transition: color 0.2s;
+}
+.nav-link--active { color: var(--color-gold); }
+.nav-icon { font-size: 20px; }
+
+.btn {
+  padding: 12px 24px; border-radius: var(--radius);
+  border: none; cursor: pointer; font-size: 14px;
+  font-weight: 600; transition: all 0.2s; width: 100%;
+}
+.btn--primary { background: var(--color-gold); color: #0D1B2A; }
+.btn--outline {
+  background: transparent; color: var(--color-gold);
+  border: 1px solid var(--color-gold);
+}
+.btn--attended { background: var(--color-mint); color: #0D1B2A; }
+.btn--favorited { background: #e84393; color: white; }
+.btn--large { padding: 16px 32px; font-size: 16px; }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.home { padding: 40px 20px 20px; }
+.home__hero { text-align: center; margin-bottom: 32px; }
+.home__edition { color: var(--color-mint); font-size: 13px; letter-spacing: 2px; text-transform: uppercase; }
+.home__title { font-size: 56px; font-weight: 900; color: var(--color-gold); line-height: 1; }
+.home__subtitle { font-size: 18px; color: var(--color-muted); margin-bottom: 12px; }
+.home__dates { font-size: 20px; font-weight: 600; }
+.home__city { color: var(--color-muted); }
+.home__stats { display: flex; justify-content: space-around; margin: 32px 0; }
+.stat { text-align: center; }
+.stat__number { display: block; font-size: 36px; font-weight: 800; color: var(--color-gold); }
+.stat__label { font-size: 12px; color: var(--color-muted); text-transform: uppercase; }
+.home__featured { margin-bottom: 32px; }
+.home__cta { text-align: center; }
+.section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; }
+
+.concert-card {
+  background: var(--color-card); border-radius: var(--radius-lg);
+  padding: 24px; border: 1px solid var(--color-border);
+}
+.concert-card__header { display: flex; justify-content: space-between; margin-bottom: 12px; }
+.concert-card__genre {
+  background: var(--color-gold); color: #0D1B2A;
+  padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700;
+}
+.concert-card__time { color: var(--color-mint); font-weight: 600; }
+.concert-card__name { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+.concert-card__stage { color: var(--color-muted); margin-bottom: 20px; }
+
+.programme { padding: 24px 20px; }
+.page-title { font-size: 28px; font-weight: 800; margin-bottom: 20px; }
+.programme__count { color: var(--color-muted); font-size: 13px; margin: 12px 0; }
+.programme__list { display: flex; flex-direction: column; gap: 12px; }
+.programme__empty { text-align: center; color: var(--color-muted); padding: 40px; }
+
+.day-selector {
+  display: flex; gap: 8px; overflow-x: auto;
+  padding-bottom: 8px; margin-bottom: 16px; scrollbar-width: none;
+}
+.day-btn {
+  display: flex; flex-direction: column; align-items: center;
+  min-width: 52px; padding: 8px; border-radius: var(--radius);
+  border: 1px solid var(--color-border); background: var(--color-card);
+  color: var(--color-text); cursor: pointer; transition: all 0.2s;
+}
+.day-btn--active { background: var(--color-gold); color: #0D1B2A; border-color: var(--color-gold); }
+.day-btn__name { font-size: 11px; text-transform: uppercase; }
+.day-btn__number { font-size: 20px; font-weight: 700; }
+
+.genre-filter { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.genre-pill {
+  padding: 6px 16px; border-radius: 20px;
+  border: 1px solid var(--color-border); background: transparent;
+  color: var(--color-text); cursor: pointer; font-size: 13px; transition: all 0.2s;
+}
+.genre-pill--active { background: var(--color-mint); color: #0D1B2A; border-color: var(--color-mint); }
+
+.artist-card {
+  display: flex; justify-content: space-between; align-items: center;
+  background: var(--color-card); border-radius: var(--radius);
+  padding: 16px; border: 1px solid var(--color-border); cursor: pointer;
+  transition: border-color 0.2s;
+}
+.artist-card:hover { border-color: var(--color-gold); }
+.artist-card__name { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+.artist-card__stage, .artist-card__time { font-size: 12px; color: var(--color-muted); }
+.artist-card__genre {
+  display: inline-block; margin-top: 6px;
+  background: var(--color-border); padding: 2px 8px;
+  border-radius: 10px; font-size: 11px; color: var(--color-mint);
+}
+.favorite-btn { background: none; border: none; font-size: 24px; cursor: pointer; }
+
+.artist-detail { padding: 20px; }
+.back-btn {
+  background: none; border: none; color: var(--color-muted);
+  font-size: 14px; cursor: pointer; margin-bottom: 24px; padding: 0;
+}
+.artist-detail__header { text-align: center; margin-bottom: 32px; }
+.artist-detail__avatar {
+  width: 80px; height: 80px; border-radius: 50%;
+  background: var(--color-gold); color: #0D1B2A;
+  font-size: 32px; font-weight: 800; display: flex;
+  align-items: center; justify-content: center; margin: 0 auto 16px;
+}
+.artist-detail__name { font-size: 32px; font-weight: 900; margin-bottom: 8px; }
+.artist-detail__genre {
+  background: var(--color-mint); color: #0D1B2A;
+  padding: 4px 16px; border-radius: 20px; font-size: 13px; font-weight: 700;
+}
+.artist-detail__info { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+.info-item { display: flex; gap: 12px; align-items: center; }
+.info-item__icon { font-size: 18px; }
+.info-item__value { font-size: 15px; }
+.artist-detail__bio { margin-bottom: 32px; }
+.artist-detail__bio h2 { font-size: 16px; color: var(--color-muted); margin-bottom: 12px; }
+.artist-detail__bio p { line-height: 1.7; color: var(--color-text); }
+.artist-detail__actions { display: flex; flex-direction: column; gap: 12px; }
+
+.planning { padding: 24px 20px; }
+.planning__count { color: var(--color-muted); font-size: 13px; margin-bottom: 24px; }
+.planning__day-group { margin-bottom: 24px; }
+.planning__day-title {
+  font-size: 14px; font-weight: 700; color: var(--color-mint);
+  text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
+  padding-bottom: 8px; border-bottom: 1px solid var(--color-border);
+}
+.planning__day-list { display: flex; flex-direction: column; gap: 10px; }
+
+.passeport { padding: 24px 20px; }
+.passeport__stat { text-align: center; margin-bottom: 24px; }
+.passeport__count { display: block; font-size: 48px; font-weight: 900; color: var(--color-gold); }
+.passeport__label { color: var(--color-muted); font-size: 14px; }
+.passeport__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
+.ticket-stub {
+  background: var(--color-card); border-radius: var(--radius);
+  padding: 16px; border: 1px solid var(--color-border);
+  position: relative; overflow: hidden;
+}
+.ticket-stub__stamp {
+  position: absolute; top: 8px; right: 8px;
+  width: 28px; height: 28px; border-radius: 50%;
+  background: var(--color-mint); color: #0D1B2A;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900; font-size: 14px;
+}
+.ticket-stub__name { font-size: 14px; font-weight: 700; margin-bottom: 4px; padding-right: 32px; }
+.ticket-stub__genre { font-size: 11px; color: var(--color-mint); margin-bottom: 4px; }
+.ticket-stub__stage, .ticket-stub__date { font-size: 11px; color: var(--color-muted); }
+
+.empty-state { text-align: center; padding: 60px 20px; }
+.empty-state__icon { font-size: 48px; display: block; margin-bottom: 16px; }
+.empty-state__text { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+.empty-state__sub { color: var(--color-muted); font-size: 14px; }
+
+.error-page { padding: 40px 20px; text-align: center; }
