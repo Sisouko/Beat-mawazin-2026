@@ -6,8 +6,14 @@ const FestivalContext = createContext ()
 
 export function FestivalProvider({children}){
 
-    const [favorites, setFavorites] = useState([])
-    const [passeport, setPasseport] = useState([])
+    const [favorites, setFavorites] = useState(() => {
+        const saved = localStorage.getItem('beat-favorites');
+        return saved ? JSON.parse(saved) : [];
+    })
+    const [passeport, setPasseport] = useState(() => {
+        const saved = localStorage.getItem('beat-passeport');
+        return saved ? JSON.parse(saved) : [];
+    })
 
 useEffect (() => {
     localStorage.setItem('beat-favorites', JSON.stringify(favorites))
